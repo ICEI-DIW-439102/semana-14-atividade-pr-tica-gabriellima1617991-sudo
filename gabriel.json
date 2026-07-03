@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "nome": "Pizza Margherita",
+    "categoria": "Italiana",
+    "tempo": 35,
+    "avaliacao": 4.9,
+    "imagem": "https://picsum.photos/seed/pizza/600/400",
+    "descricao": "Pizza clássica italiana com molho de tomate, mussarela e manjericão."
+  },
+  {
+    "id": 2,
+    "nome": "Lasanha à Bolonhesa",
+    "categoria": "Massas",
+    "tempo": 60,
+    "avaliacao": 4.8,
+    "imagem": "https://picsum.photos/seed/lasanha/600/400",
+    "descricao": "Camadas de massa, molho bolonhesa, queijo e molho branco."
+  },
+  {
+    "id": 3,
+    "nome": "Hambúrguer Artesanal",
+    "categoria": "Lanches",
+    "tempo": 25,
+    "avaliacao": 4.7,
+    "imagem": "https://picsum.photos/seed/hamburguer/600/400",
+    "descricao": "Pão brioche, hambúrguer bovino, queijo cheddar e bacon."
+  },
+  {
+    "id": 4,
+    "nome": "Brownie de Chocolate",
+    "categoria": "Sobremesas",
+    "tempo": 40,
+    "avaliacao": 4.9,
+    "imagem": "https://picsum.photos/seed/brownie/600/400",
+    "descricao": "Brownie macio com bastante chocolate."
+  },
+  {
+    "id": 5,
+    "nome": "Cheesecake de Morango",
+    "categoria": "Sobremesas",
+    "tempo": 50,
+    "avaliacao": 4.8,
+    "imagem": "https://picsum.photos/seed/cheesecake/600/400",
+    "descricao": "Cheesecake cremoso com cobertura de morango."
+  },
+  {
+    "id": 6,
+    "nome": "Salada Caesar",
+    "categoria": "Saladas",
+    "tempo": 20,
+    "avaliacao": 4.5,
+    "imagem": "https://picsum.photos/seed/caesar/600/400",
+    "descricao": "Alface americana, frango grelhado, parmesão e croutons."
+  },
+  {
+    "id": 7,
+    "nome": "Risoto de Cogumelos",
+    "categoria": "Italiana",
+    "tempo": 45,
+    "avaliacao": 4.6,
+    "imagem": "https://picsum.photos/seed/risoto/600/400",
+    "descricao": "Risoto cremoso preparado com cogumelos frescos."
+  },
+  {
+    "id": 8,
+    "nome": "Panqueca Americana",
+    "categoria": "Café da Manhã",
+    "tempo": 15,
+    "avaliacao": 4.4,
+    "imagem": "https://picsum.photos/seed/panqueca/600/400",
+    "descricao": "Panquecas fofinhas servidas com mel e frutas."
+  },
+  {
+    "id": 9,
+    "nome": "Escondidinho de Carne",
+    "categoria": "Brasileira",
+    "tempo": 55,
+    "avaliacao": 4.8,
+    "imagem": "https://picsum.photos/seed/escondidinho/600/400",
+    "descricao": "Purê de mandioca recheado com carne desfiada."
+  },
+  {
+    "id": 10,
+    "nome": "Feijoada",
+    "categoria": "Brasileira",
+    "tempo": 90,
+    "avaliacao": 5.0,
+    "imagem": "https://picsum.photos/seed/feijoada/600/400",
+    "descricao": "Tradicional feijoada brasileira."
+  },
+  {
+    "id": 11,
+    "nome": "Sushi",
+    "categoria": "Japonesa",
+    "tempo": 45,
+    "avaliacao": 4.9,
+    "imagem": "https://picsum.photos/seed/sushi/600/400",
+    "descricao": "Combinado de sushi e sashimi."
+  },
+  {
+    "id": 12,
+    "nome": "Yakisoba",
+    "categoria": "Japonesa",
+    "tempo": 35,
+    "avaliacao": 4.7,
+    "imagem": "https://picsum.photos/seed/yakisoba/600/400",
+    "descricao": "Macarrão oriental com legumes e carne."
+  },
+  {
+    "id": 13,
+    "nome": "Bolo de Cenoura",
+    "categoria": "Sobremesas",
+    "tempo": 50,
+    "avaliacao": 4.8,
+    "imagem": "https://picsum.photos/seed/bolo/600/400",
+    "descricao": "Bolo de cenoura com cobertura de chocolate."
+  },
+  {
+    "id": 14,
+    "nome": "Tacos Mexicanos",
+    "categoria": "Mexicana",
+    "tempo": 30,
+    "avaliacao": 4.6,
+    "imagem": "https://picsum.photos/seed/tacos/600/400",
+    "descricao": "Tacos recheados com carne temperada e legumes."
+  },
+  {
+    "id": 15,
+    "nome": "Nachos",
+    "categoria": "Mexicana",
+    "tempo": 20,
+    "avaliacao": 4.5,
+    "imagem": "https://picsum.photos/seed/nachos/600/400",
+    "descricao": "Nachos com queijo cheddar e molho especial."
+  }
+]

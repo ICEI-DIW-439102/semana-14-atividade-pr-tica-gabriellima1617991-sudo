@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard Gourmet</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Chart JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>
+            🍴 Dashboard Gourmet
+        </h1>
+
+        <p>
+            Visualização dinâmica das receitas cadastradas
+        </p>
+
+    </header>
+
+    <!-- CARDS -->
+
+    <section class="cards">
+
+        <div class="card">
+
+            <i class="fa-solid fa-utensils"></i>
+
+            <h2 id="totalReceitas">0</h2>
+
+            <span>Receitas</span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-layer-group"></i>
+
+            <h2 id="totalCategorias">0</h2>
+
+            <span>Categorias</span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-star"></i>
+
+            <h2 id="mediaAvaliacoes">0</h2>
+
+            <span>Média das Avaliações</span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-clock"></i>
+
+            <h2 id="tempoMedio">0</h2>
+
+            <span>Tempo Médio</span>
+
+        </div>
+
+    </section>
+
+    <!-- FILTROS -->
+
+    <section class="filtros">
+
+        <input
+            type="text"
+            id="pesquisa"
+            placeholder="Pesquisar receita...">
+
+        <select id="categoria">
+
+            <option value="Todas">
+                Todas Categorias
+            </option>
+
+        </select>
+
+    </section>
+
+    <!-- GRAFICOS -->
+
+    <section class="graficos">
+
+        <div class="grafico">
+
+            <h2>Receitas por Categoria</h2>
+
+            <canvas id="graficoPizza"></canvas>
+
+        </div>
+
+        <div class="grafico">
+
+            <h2>Tempo Médio de Preparo</h2>
+
+            <canvas id="graficoBarra"></canvas>
+
+        </div>
+
+    </section>
+
+    <!-- TOP RECEITAS -->
+
+    <section class="ranking">
+
+        <h2>
+
+            ⭐ Receitas Mais Bem Avaliadas
+
+        </h2>
+
+        <div id="topReceitas">
+
+        </div>
+
+    </section>
+
+    <!-- LISTA -->
+
+    <section>
+
+        <h2 class="titulo">
+
+            Todas as Receitas
+
+        </h2>
+
+        <div id="listaReceitas">
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

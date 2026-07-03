@@ -1,0 +1,462 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#fff7ed,#ffe0b2,#fff3e0);
+    color:#333;
+    min-height:100vh;
+}
+
+/* ==========================
+HEADER
+========================== */
+
+header{
+
+    text-align:center;
+    padding:45px 20px;
+    color:#fff;
+
+    background:linear-gradient(135deg,#ff6f00,#ff9800);
+    box-shadow:0 10px 30px rgba(0,0,0,.18);
+
+}
+
+header h1{
+
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+
+    font-size:18px;
+    opacity:.95;
+
+}
+
+/* ==========================
+CARDS
+========================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.card{
+
+    background:rgba(255,255,255,.65);
+
+    backdrop-filter:blur(12px);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+.card i{
+
+    font-size:40px;
+
+    color:#ff7a00;
+
+    margin-bottom:15px;
+
+}
+
+.card h2{
+
+    font-size:38px;
+
+    color:#ff6f00;
+
+}
+
+.card span{
+
+    color:#555;
+
+    font-size:16px;
+
+}
+
+/* ==========================
+FILTROS
+========================== */
+
+.filtros{
+
+    width:90%;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+    justify-content:center;
+
+}
+
+.filtros input,
+.filtros select{
+
+    flex:1;
+
+    min-width:260px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:14px;
+
+    outline:none;
+
+    font-size:16px;
+
+    background:white;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+}
+
+/* ==========================
+GRÁFICOS
+========================== */
+
+.graficos{
+
+    width:90%;
+
+    margin:50px auto;
+
+    display:grid;
+
+    gap:30px;
+
+    grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+
+}
+
+.grafico{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+
+}
+
+.grafico h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    color:#ff6f00;
+
+}
+
+/* ==========================
+RANKING
+========================== */
+
+.ranking{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.ranking h2{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+    color:#ff6f00;
+
+}
+
+#topReceitas{
+
+    display:grid;
+
+    gap:20px;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+}
+
+.top-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.top-card:hover{
+
+    transform:scale(1.03);
+
+}
+
+.top-card img{
+
+    width:100%;
+
+    height:180px;
+
+    object-fit:cover;
+
+}
+
+.top-info{
+
+    padding:20px;
+
+}
+
+.top-info h3{
+
+    color:#ff6f00;
+
+    margin-bottom:10px;
+
+}
+
+.top-info p{
+
+    margin:6px 0;
+
+}
+
+/* ==========================
+LISTA
+========================== */
+
+.titulo{
+
+    text-align:center;
+
+    margin:45px 0 25px;
+
+    color:#ff6f00;
+
+}
+
+#listaReceitas{
+
+    width:90%;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+    padding-bottom:50px;
+
+}
+
+/* ==========================
+CARD RECEITA
+========================== */
+
+.receita{
+
+    background:white;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 24px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.receita:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.receita img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.info{
+
+    padding:22px;
+
+}
+
+.info h2{
+
+    color:#ff6f00;
+
+    margin-bottom:10px;
+
+}
+
+.info p{
+
+    margin:8px 0;
+
+    color:#555;
+
+}
+
+.categoria{
+
+    display:inline-block;
+
+    background:#ff9800;
+
+    color:white;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    margin-bottom:15px;
+
+}
+
+/* ==========================
+BOTÃO
+========================== */
+
+button{
+
+    width:100%;
+
+    padding:14px;
+
+    margin-top:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#ff6f00;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#e65c00;
+
+}
+
+/* ==========================
+SCROLLBAR
+========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#ff9800;
+
+    border-radius:30px;
+
+}
+
+/* ==========================
+RESPONSIVO
+========================== */
+
+@media(max-width:700px){
+
+header h1{
+
+font-size:30px;
+
+}
+
+.graficos{
+
+grid-template-columns:1fr;
+
+}
+
+.card{
+
+padding:20px;
+
+}
+
+}

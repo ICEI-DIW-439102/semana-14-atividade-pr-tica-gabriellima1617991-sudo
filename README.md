@@ -10,8 +10,8 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
+- Nome:Gabriel Rodrigues Lima
+- Matricula:908545
 - Proposta de projeto escolhida:
 - Breve descrição sobre seu projeto:
 
